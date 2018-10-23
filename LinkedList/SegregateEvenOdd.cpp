@@ -1,3 +1,26 @@
+/* Question -->
+Given a Linked List of integers, 
+write a function to modify the linked list such that all even numbers appear before all the odd numbers in the modified linked list. 
+Also, keep the order of even and odd numbers same.
+
+Example:
+
+Input
+3
+7
+17 15 8 9 2 4 6
+4
+1 3 5 7
+7
+8 12 10 5 4 1 6
+
+Output
+8 2 4 6 17 15 9
+1 3 5 7
+8 12 10 4 6 5 1
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
