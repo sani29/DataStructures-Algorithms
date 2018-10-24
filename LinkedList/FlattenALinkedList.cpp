@@ -1,3 +1,10 @@
+/* Question:
+https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+*/
+/* Time Complexity: O(n^2*k); where n is number of lists and k is avg size of lists */
+/* Note: This code does not flatten the list at all, it just maintains the sorted
+list of the all the nodes to the next in the given node's bottom pointer.*/
+
 #include <bits/stdc++.h>
 struct Node{
 	int data;
