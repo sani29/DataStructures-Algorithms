@@ -1,4 +1,11 @@
+/*Question:
+https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
+*/
 
+//Time Complexity: O(m+n)
+//Auxiliary Space: O(1)
+
+// Solution:
 #include<bits/stdc++.h>
 #include<stdio.h>
 using namespace std;
