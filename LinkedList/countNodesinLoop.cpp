@@ -1,3 +1,16 @@
+/*  Question: 
+	https://practice.geeksforgeeks.org/problems/find-length-of-loop/1
+ */
+
+/*	Note:
+	We know that Floyd’s Cycle detection algorithm terminates when fast and slow pointers meet at a common point. 
+	We also know that this common point is one of the loop nodes (2 or 3 or 4 or 5 in the above diagram). 
+	We store the address of this in a pointer variable say ptr2. 
+	Then we start from the head of the Linked List and check for nodes one by one if they are reachable from ptr2. 
+	When we find a node that is reachable, 
+	we know that this node is the starting node of the loop in Linked List and we can get pointer to the previous of this node.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<bits/stdc++.h>
