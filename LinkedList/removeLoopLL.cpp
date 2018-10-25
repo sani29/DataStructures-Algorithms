@@ -1,4 +1,12 @@
-// C program to detect loop in a linked list
+/* Question:
+	https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1
+*/
+/* Note:
+	We can hash the addresses of the linked list nodes in an unordered map and just check if the element already exists in the map. 
+	If it exists, we have reached a node which already exists by a cycle, hence we need to make the last node’s next pointer NULL.
+*/
+
+// C++ program to detect loop in a linked list
 #include<bits/stdc++.h>
  using namespace std;
 /* Link list Node */
